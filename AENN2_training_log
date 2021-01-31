@@ -1,0 +1,25 @@
+[LOG20210130-10:40:44], training status, epoch: [0001/0005],batch: 1000, loss: 0.0145, mode: GPU, time required: 0:00:11.095335
+[LOG20210130-10:40:54], training status, epoch: [0001/0005],batch: 2000, loss: 0.0083, mode: GPU, time required: 0:00:10.406930
+[LOG20210130-10:41:04], training status, epoch: [0001/0005],batch: 3000, loss: 0.0061, mode: GPU, time required: 0:00:10.282388
+[LOG20210130-10:41:15], training status, epoch: [0001/0005],batch: 4000, loss: 0.0049, mode: GPU, time required: 0:00:10.391716
+[LOG20210130-10:46:40] training status, epoch: [0001/0005], loss0.0058332933
+[LOG20210130-10:47:25], training status, epoch: [0002/0005],batch: 1000, loss: 0.0049, mode: GPU, time required: 0:00:25.138258
+[LOG20210130-10:47:39], training status, epoch: [0002/0005],batch: 2000, loss: 0.0056, mode: GPU, time required: 0:00:10.498077
+[LOG20210130-10:47:49], training status, epoch: [0002/0005],batch: 3000, loss: 0.0052, mode: GPU, time required: 0:00:10.511125
+[LOG20210130-10:48:00], training status, epoch: [0002/0005],batch: 4000, loss: 0.0046, mode: GPU, time required: 0:00:10.391762
+[LOG20210130-11:06:12] training status, epoch: [0002/0005], loss0.0042676777
+[LOG20210130-11:07:40], training status, epoch: [0003/0005],batch: 1000, loss: 0.0036, mode: GPU, time required: 0:00:39.270783
+[LOG20210130-11:07:54], training status, epoch: [0003/0005],batch: 2000, loss: 0.0034, mode: GPU, time required: 0:00:10.392226
+[LOG20210130-11:08:04], training status, epoch: [0003/0005],batch: 3000, loss: 0.0038, mode: GPU, time required: 0:00:10.623529
+[LOG20210130-11:08:15], training status, epoch: [0003/0005],batch: 4000, loss: 0.007, mode: GPU, time required: 0:00:10.565337
+[LOG20210130-11:43:40] training status, epoch: [0003/0005], loss0.0036178341
+[LOG20210130-11:46:03], training status, epoch: [0004/0005],batch: 1000, loss: 0.0045, mode: GPU, time required: 0:00:59.763313
+[LOG20210130-11:46:18], training status, epoch: [0004/0005],batch: 2000, loss: 0.0037, mode: GPU, time required: 0:00:10.363809
+[LOG20210130-11:46:28], training status, epoch: [0004/0005],batch: 3000, loss: 0.0035, mode: GPU, time required: 0:00:10.105852
+[LOG20210130-11:46:38], training status, epoch: [0004/0005],batch: 4000, loss: 0.0041, mode: GPU, time required: 0:00:10.195660
+[LOG20210130-12:28:41] training status, epoch: [0004/0005], loss0.0047695842
+[LOG20210130-12:31:36], training status, epoch: [0005/0005],batch: 1000, loss: 0.0033, mode: GPU, time required: 0:01:13.828093
+[LOG20210130-12:31:53], training status, epoch: [0005/0005],batch: 2000, loss: 0.0035, mode: GPU, time required: 0:00:10.499566
+[LOG20210130-12:32:04], training status, epoch: [0005/0005],batch: 3000, loss: 0.0052, mode: GPU, time required: 0:00:10.742898
+[LOG20210130-12:32:14], training status, epoch: [0005/0005],batch: 4000, loss: 0.003, mode: GPU, time required: 0:00:10.347319
+[LOG20210130-13:25:15] training status, epoch: [0005/0005], loss0.0034939880
