@@ -8,7 +8,7 @@ def plot_latent_space(latent_variable, label, epoch):
     ax.set_zlabel(r'activation [$z_3$]', weight='normal', fontsize=12)
     plt.title('latent space activations at epoch ' + str(epoch), fontsize=12)
     regular = latent_variable[np.where(label == 'regular')]
-    ax.scatter(regular[:, 0], regular[:, 1], regular[:, 2], c='C0', alpha=0.4, marker="o"
+    ax.scatter(regular[:, 0], regular[:, 1], regular[:, 2], c='C0', alpha=0.4, marker="o")
     anomalies_1 = latent_variable[np.where(label == 'global')]
     ax.scatter(anomalies_1[:, 0], anomalies_1[:, 1], anomalies_1[:, 2], c='C1', s=100, marker="^")
     anomalies_2 = latent_variable[np.where(label == 'local')]
@@ -16,7 +16,7 @@ def plot_latent_space(latent_variable, label, epoch):
 
 def get_latent_space(encoder_model_name):
     encoder_eval = encoder()
-    encoder_eval.load_state_dict(torch.load(os.path.join("models", encoder_model_name)))
+    encoder_eval.load_state_dict(torch.load(os.path.join("G:/models_1", encoder_model_name)))
     data = autograd.Variable(torch_dataset)
     encoder_eval.eval()
     latent_variable = encoder_eval(data).data.numpy()
